@@ -1,3 +1,6 @@
+"""
+This script will plot various signal features like frequency, drift rate, and signal to noise ratio against each other to determine possible correlations. It also clusters the data using K-Means to determine any aggregate relations between the signals. Currently the number of clusters must be manually set by the user.
+"""
 from setiS18.sql import get_data
 import setiS18.figures.tfdiagram as tf
 from setiS18 import CandidateSignal
